@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kamal El Sayed Kamal - Python Full Stack Developer specializing in Django, REST APIs, Vue.js, PostgreSQL, Docker, Redis, and Celery." />
+  <meta name="theme-color" content="#0b1120" id="themeColor" />
+  <title>Kamal El Sayed Kamal | Python Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <aside class="floating-contact" aria-label="Direct contact links">
+    <a class="float-action whatsapp" href="https://wa.me/201026607321" target="_blank" rel="noopener noreferrer" aria-label="Contact me on WhatsApp" title="WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16.04 3.1A12.78 12.78 0 0 0 5.08 22.5L3.6 28.9l6.54-1.42A12.77 12.77 0 1 0 16.04 3.1Zm0 22.9a10.07 10.07 0 0 1-5.13-1.41l-.36-.22-3.88.84.87-3.75-.24-.39a10.05 10.05 0 1 1 8.74 4.93Zm5.7-7.54c-.31-.16-1.82-.9-2.1-1s-.49-.16-.7.16-.8 1-.98 1.18-.36.24-.67.08a8.2 8.2 0 0 1-2.42-1.49 9.02 9.02 0 0 1-1.67-2.07c-.17-.31-.02-.48.13-.63.13-.13.31-.36.47-.54.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.54-.08-.16-.7-1.69-.96-2.31-.25-.6-.5-.52-.7-.53h-.6c-.21 0-.54.08-.82.39s-1.08 1.05-1.08 2.57 1.1 2.98 1.25 3.18c.16.21 2.17 3.31 5.26 4.64.74.32 1.31.51 1.76.65.74.23 1.41.2 1.94.12.59-.09 1.82-.74 2.07-1.46.26-.72.26-1.33.18-1.46-.08-.13-.28-.21-.59-.36Z" />
+      </svg>
+    </a>
+    <a class="float-action email" href="mailto:Kamalelsayed118@gmail.com?subject=Portfolio%20Contact%20-%20Kamal%20El%20Sayed" aria-label="Email me" title="Email">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M5 7h22a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3Zm0 3v.4l11 7.05L27 10.4V10H5Zm22 12v-8.06l-10.2 6.54a1.5 1.5 0 0 1-1.6 0L5 13.94V22h22Z" />
+      </svg>
+    </a>
+  </aside>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Kamal El Sayed Kamal home">
+        <span class="brand-mark">K</span>
+        <span class="brand-copy">
+          <strong>Kamal El Sayed Kamal</strong>
+          <small>Python Full Stack Developer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">What I Build</a>
+        <a href="#tools">Tools I Use</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact Me</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+          <span class="theme-toggle-icon" aria-hidden="true">
+            <svg class="icon-sun" viewBox="0 0 24 24">
+              <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0-16a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1Zm0 17a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM4.93 3.52a1 1 0 0 1 1.41 0l.71.71a1 1 0 1 1-1.41 1.41l-.71-.71a1 1 0 0 1 0-1.41Zm12.02 12.02a1 1 0 0 1 1.41 0l.71.71a1 1 0 1 1-1.41 1.41l-.71-.71a1 1 0 0 1 0-1.41ZM2 12a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1Zm17 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1ZM4.93 20.48a1 1 0 0 1 0-1.41l.71-.71a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1-1.41 0Zm12.02-12.02a1 1 0 0 1 0-1.41l.71-.71a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1-1.41 0Z" />
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24">
+              <path d="M20.7 14.2a1 1 0 0 0-1.05-.22A7.6 7.6 0 0 1 9.98 4.35 1 1 0 0 0 8.7 3.05 9.6 9.6 0 1 0 20.95 15.3a1 1 0 0 0-.25-1.1Z" />
+            </svg>
+          </span>
+          <span class="theme-toggle-text">Light</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="status-pill"><span></span> Open to Backend / Full Stack opportunities</p>
+          <h1>I build scalable, production-ready web applications.</h1>
+          <p class="hero-text">
+            I am a Python Full Stack Developer specializing in Django, Django REST Framework, REST APIs, Vue.js, PostgreSQL, Docker, Redis, and Celery. I focus on clean architecture, secure authentication, optimized databases, and business-oriented web products.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary magnetic" href="#projects">View My Projects</a>
+            <a class="btn secondary magnetic" href="Kamal-El-Sayed-CV.pdf" target="_blank" rel="noopener noreferrer">Download My CV</a>
+          </div>
+          <div class="quick-meta" aria-label="Quick profile facts">
+            <div>
+              <strong>Cairo, Egypt</strong>
+              <span>Available remotely and onsite</span>
+            </div>
+            <div>
+              <strong>Military Status</strong>
+              <span>Completed - 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Profile summary card">
+          <div class="card-orbit" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="avatar-card">
+            <div class="avatar-ring">
+              <span>K</span>
+            </div>
+            <div>
+              <p class="mini-label">Portfolio</p>
+              <h2>Kamal El Sayed Kamal</h2>
+              <p>Python Full Stack Developer</p>
+            </div>
+          </div>
+
+          <div class="stack-window">
+            <div class="window-head">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code>def build_product():
+    api = secure_rest_api()
+    db = optimize_postgresql()
+    tasks = run_with_celery()
+    return scalable_web_app(api, db, tasks)</code></pre>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>5+</strong><span>Real projects</span></div>
+            <div><strong>3 mo</strong><span>Full Stack internship</span></div>
+            <div><strong>2023</strong><span>CS graduate</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split-grid">
+        <div class="section-title reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>I turn backend logic into reliable web products.</h2>
+          <p>
+            I write this portfolio in my own voice so clients, recruiters, and teams can understand how I work and what I can deliver.
+          </p>
+        </div>
+        <div class="content-card reveal">
+          <p>
+            I am a results-driven Python Full Stack Developer with hands-on experience building scalable web applications using Django and Django REST Framework.
+          </p>
+          <p>
+            I design secure RESTful APIs, implement JWT authentication, and optimize PostgreSQL and MySQL queries for better performance.
+          </p>
+          <p>
+            I also work with Docker, Redis, and Celery to support asynchronous processing, caching, and production-ready deployment workflows.
+          </p>
+          <div class="facts-grid">
+            <div><span>Specialization</span><strong>Python Full Stack Development</strong></div>
+            <div><span>Location</span><strong>Cairo, Egypt</strong></div>
+            <div><span>Languages</span><strong>Arabic, English</strong></div>
+            <div><span>Email</span><strong>Kamalelsayed118@gmail.com</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">What I Build</p>
+            <h2>I build backend-first products with clean, scalable structure.</h2>
+          </div>
+          <p>I connect product needs with strong APIs, optimized databases, and maintainable code.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-icon">01</span>
+            <h3>Backend Development</h3>
+            <p>I build reliable backend systems using Python, Django, Django REST Framework, and clean project architecture.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon">02</span>
+            <h3>REST API Development</h3>
+            <p>I design RESTful APIs for authentication, data management, product workflows, and secure client-server communication.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon">03</span>
+            <h3>Full Stack Web Apps</h3>
+            <p>I connect Django backends with responsive frontends using Vue.js, HTML, CSS, JavaScript, and Bootstrap.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon">04</span>
+            <h3>Database & Performance</h3>
+            <p>I organize PostgreSQL and MySQL data models, improve queries, and focus on performance and maintainability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container split-grid">
+        <div class="section-title reveal">
+          <p class="eyebrow">Tools I Use</p>
+          <h2>The tools I use to build, secure, and deploy web applications.</h2>
+          <p>
+            I use these technologies across backend development, database design, frontend implementation, and deployment workflows.
+          </p>
+        </div>
+        <div class="tools-board reveal">
+          <div class="tool-group">
+            <div class="tool-head"><h3>Backend</h3><span>90%</span></div>
+            <div class="progress"><span style="width: 90%"></span></div>
+            <div class="chips"><span>Python</span><span>Django</span><span>DRF</span><span>REST APIs</span><span>JWT</span><span>Celery</span><span>Redis</span></div>
+          </div>
+          <div class="tool-group">
+            <div class="tool-head"><h3>Databases</h3><span>85%</span></div>
+            <div class="progress"><span style="width: 85%"></span></div>
+            <div class="chips"><span>PostgreSQL</span><span>MySQL</span><span>Django ORM</span><span>Query Optimization</span></div>
+          </div>
+          <div class="tool-group">
+            <div class="tool-head"><h3>Frontend</h3><span>75%</span></div>
+            <div class="progress"><span style="width: 75%"></span></div>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vue.js</span><span>Bootstrap</span><span>Responsive UI</span></div>
+          </div>
+          <div class="tool-group">
+            <div class="tool-head"><h3>DevOps & Tools</h3><span>75%</span></div>
+            <div class="progress"><span style="width: 75%"></span></div>
+            <div class="chips"><span>Docker</span><span>Git</span><span>GitHub</span><span>AWS Basic</span><span>Clean Code</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Projects I Built</p>
+            <h2>Selected work that shows how I solve real problems.</h2>
+          </div>
+          <p>Each project highlights a different part of my backend, API, database, and full stack experience.</p>
+        </div>
+
+        <div class="filter-bar reveal" aria-label="Project filters">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="Django">Django</button>
+          <button type="button" class="filter-btn" data-filter="DRF">DRF</button>
+          <button type="button" class="filter-btn" data-filter="PostgreSQL">PostgreSQL</button>
+          <button type="button" class="filter-btn" data-filter="MySQL">MySQL</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal" data-tags="Django DRF PostgreSQL Redis Celery Docker Python">
+            <div class="project-top"><span>E-commerce</span><strong>2025</strong></div>
+            <h3>Django Greeny - E-commerce Website</h3>
+            <p>I built RESTful APIs for products, orders, and authentication using Django REST Framework, JWT authentication, Redis caching, Celery background tasks, PostgreSQL, and Docker deployment.</p>
+            <ul>
+              <li>Product, order, and authentication APIs</li>
+              <li>JWT authentication and secure backend structure</li>
+              <li>Redis caching and Celery background tasks</li>
+            </ul>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>DRF</span><span>PostgreSQL</span><span>Redis</span><span>Celery</span><span>Docker</span></div>
+            <a class="project-link" href="https://github.com/Kamal7El-Sayed/Django-Greeny-Ecommerce-Website" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card featured reveal" data-tags="Django DRF PostgreSQL Python HTML CSS JavaScript">
+            <div class="project-top"><span>Web App</span><strong>2025</strong></div>
+            <h3>Task Manager System</h3>
+            <p>I developed a task management web application with full CRUD operations, user authentication, authorization, REST APIs, PostgreSQL, and a scalable Django backend structure.</p>
+            <ul>
+              <li>Create, update, delete, and manage tasks</li>
+              <li>Secure access for each authenticated user</li>
+              <li>Reusable components and clean backend structure</li>
+            </ul>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>DRF</span><span>PostgreSQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/Kamal7El-Sayed/django-todo" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="Django Python HTML CSS JavaScript">
+            <div class="project-top"><span>Blog Platform</span><strong>2024</strong></div>
+            <h3>Djblog</h3>
+            <p>I built a blogging platform with user authentication, CRUD operations for posts, and admin management for content control.</p>
+            <ul>
+              <li>User authentication</li>
+              <li>Post create, update, and delete workflows</li>
+              <li>Admin management</li>
+            </ul>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/Kamal7El-Sayed/djblog" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="Django Python HTML CSS">
+            <div class="project-top"><span>Education Platform</span><strong>2024</strong></div>
+            <h3>Courses Website</h3>
+            <p>I developed an online course management system with authentication, enrollment, course content management, a responsive UI, and an admin panel.</p>
+            <ul>
+              <li>User authentication and enrollment</li>
+              <li>Admin panel for managing courses</li>
+              <li>Responsive course interface</li>
+            </ul>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span></div>
+            <a class="project-link" href="https://github.com/Kamal7El-Sayed/courses-website" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="Python MySQL">
+            <div class="project-top"><span>Banking System</span><strong>2023</strong></div>
+            <h3>Python Bank System</h3>
+            <p>I created a banking application for managing accounts, deposits, withdrawals, balance tracking, account history, and secure transaction handling with MySQL.</p>
+            <ul>
+              <li>Account, deposit, and withdrawal operations</li>
+              <li>Balance tracking and transaction history</li>
+              <li>MySQL database integration</li>
+            </ul>
+            <div class="project-tags"><span>Python</span><span>MySQL</span></div>
+            <a class="project-link" href="https://github.com/Kamal7El-Sayed/python-bank-system" target="_blank" rel="noopener noreferrer">View source</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container split-grid">
+        <div class="section-title reveal">
+          <p class="eyebrow">My Experience</p>
+          <h2>My journey combines academic learning, practical training, and real projects.</h2>
+          <p>
+            I keep improving my backend and full stack skills by building projects, studying system design basics, and applying clean code practices.
+          </p>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <span>Aug 2022 - Oct 2022</span>
+            <h3>Full Stack Development Intern - CCIC, Mansoura</h3>
+            <p>I developed backend modules using Django and Django REST Framework, designed RESTful APIs for authentication and data management, optimized PostgreSQL and MySQL queries, and collaborated with team members using Git.</p>
+          </article>
+          <article class="timeline-item">
+            <span>2019 - 2023</span>
+            <h3>Bachelor of Computer and Information Science - IT Department</h3>
+            <p>I graduated from Mansoura University. My final year project was a Gym Management System built with Django and PostgreSQL, and I earned an Excellent (A) grade for the project.</p>
+          </article>
+          <article class="timeline-item">
+            <span>Oct 2022</span>
+            <h3>Backend Development Training - Python & Django</h3>
+            <p>I completed backend development training focused on Python, Django, practical backend workflows, and real web application structure.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact Me</p>
+          <h2>Let's build something reliable, scalable, and useful.</h2>
+          <p>
+            I am open to backend, full stack, internship, freelance, and collaboration opportunities. Send me a message and I will get back to you as soon as possible.
+          </p>
+          <div class="contact-cards">
+            <a href="mailto:Kamalelsayed118@gmail.com"><span>Email</span><strong>Kamalelsayed118@gmail.com</strong></a>
+            <a href="https://wa.me/201026607321" target="_blank" rel="noopener noreferrer"><span>WhatsApp</span><strong>+20 1026607321</strong></a>
+            <div><span>Location</span><strong>Cairo, Egypt</strong></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-head">
+            <span>Quick Message</span>
+            <strong>Your email app will open when you submit.</strong>
+          </div>
+          <label>
+            Your Name
+            <input type="text" name="name" placeholder="Enter your name" required />
+          </label>
+          <label>
+            Your Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about your opportunity or project" required></textarea>
+          </label>
+          <button class="btn primary wide magnetic" type="submit">Send Email</button>
+          <p class="form-hint">This form creates a ready email addressed to me. No backend setup is required.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Kamal El Sayed Kamal. All rights reserved.</p>
+      <div>
+        <a href="https://github.com/Kamal7El-Sayed" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/kamalelsayed" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
